@@ -1,8 +1,8 @@
 {
   "name": "leet-calendar",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "A React component to display LeetCode calendar",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production"
   },
