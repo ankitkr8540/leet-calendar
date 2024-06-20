@@ -1,17 +1,22 @@
 {
-  "name": "leetcode-calendar",
+  "name": "react-leetcode-calendar",
   "version": "1.0.0",
   "description": "A React component to display LeetCode calendar",
   "main": "dist/index.js",
+  "homepage": "https://ankitkr8540.github.io/leetcode-calendar/",
+  "repository": "ankitkr8540/leetcode-calendar",
   "scripts": {
     "build": "webpack --mode production"
   },
   "keywords": [
     "react",
     "leetcode",
-    "calendar"
+    "calendar",
+    "activity",
+    "heatmap",
+    "component"
   ],
-  "author": "Your Name",
+  "author": "Ankit Kumar <ankitkr8540@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": "^18.3.1"
