@@ -1,5 +1,5 @@
 {
-  "name": "react-leetcode-calendar",
+  "name": "leetcode-calendar",
   "version": "1.0.0",
   "description": "A React component to display LeetCode calendar",
   "main": "dist/index.js",
