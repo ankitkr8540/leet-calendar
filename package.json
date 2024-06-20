@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A React component to display LeetCode calendar",
   "main": "dist/index.js",
-  "homepage": "https://ankitkr8540.github.io/leetcode-calendar/",
-  "repository": "ankitkr8540/leetcode-calendar",
+  "homepage": "https://ankitkr8540.github.io/leet-calendar/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitkr8540/leet-calendar"
+  },
   "scripts": {
     "build": "webpack --mode production"
   },
