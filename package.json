@@ -1,6 +1,6 @@
 {
-  "name": "leet-calendar",
-  "version": "1.0.7",
+  "name": "leetcode-calendar",
+  "version": "1.0.0",
   "description": "A React component to display LeetCode calendar",
   "main": "dist/index.js",
   "scripts": {
@@ -14,9 +14,7 @@
   "author": "Your Name",
   "license": "MIT",
   "peerDependencies": {
-    "axios": "^0.21.0",
-    "moment": "^2.0.0",
-    "react": "^17.0.0 || ^18.0.0"
+    "react": "^18.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
@@ -27,8 +25,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "css-loader": "^7.1.2",
-    "style-loader": "^4.0.0"
+    "react-activity-calendar": "^2.2.10"
   },
   "babel": {
     "presets": [
