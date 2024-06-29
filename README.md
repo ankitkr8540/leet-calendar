@@ -1,18 +1,18 @@
 <div align='center'>
 
-# LeetCode Calendar 
+# Leetcode Calendar 
 
 ![icon](https://github.com/ankitkr8540/leetcode-calendar/blob/master/assets/leetcode-calendar-logo.png)
 
 </div>
 
 <p align="center">
-    LeetCode Calendar: Showcase Your Leetcode Consistency with LeetCode Calendar.
+    Leetcode Calendar: Showcase Your Leetcode Consistency with LeetCode Calendar.
     <br>
     <br>
     Ever tried explaining your coding skills on a resume or portfolio, but felt like it lacked punch? 
     <br>
-    The LeetCode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your LeetCode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
+    The Leetcode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your Leetcode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
     <br>
     <a href="https://github.com/ankitkr8540/leetcode-calendar/issues/new">Report a Bug or request a feature</a>
 </p>
@@ -23,9 +23,9 @@
 
 Go to your project folder and do `npm install leetcode-calendar`
 
-## Using Leetcode Calender
+## Using Leetcode Calendar
 
-1. Import leetcode calender in your project
+1. Import leetcode calendar in your project
 
 `import LeetCodeCalendar from 'leetcode-calendar';`
 
@@ -68,7 +68,7 @@ export default function Example() {
 
 3. Customization
 
-- username: Replace "your_leetcode_username" with your actual LeetCode username.
+- username: Replace "your_leetcode_username" with your actual Leetcode username.
 - blockSize: This defines the size of each block on the calendar in pixels.
 - blockMargin: This sets the margin between blocks on the calendar.
 - color: Customize the color of the solved blocks on the calendar.
