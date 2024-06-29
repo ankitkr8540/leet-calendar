@@ -1,6 +1,6 @@
 <div align='center'>
 
-# LeetCode-Calendar
+# NPM Package to show LeetCode-Calendar 
 
 ![icon](https://github.com/ankitkr8540/leetcode-calendar/blob/antara-trials/assets/leetcode-calendar-logo.png)
 
