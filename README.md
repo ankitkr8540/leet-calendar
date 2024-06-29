@@ -1,16 +1,18 @@
 <div align='center'>
 
-# NPM Package to show LeetCode-Calendar 
+# LeetCode Calendar 
 
 ![icon](https://github.com/ankitkr8540/leetcode-calendar/blob/antara-trials/assets/leetcode-calendar-logo.png)
 
 </div>
 
 <p align="center">
-    LeetCode Calendar: Because nobody cares about your resume without green squares.
+    LeetCode Calendar: Showcase Your Leetcode Consistency with LeetCode Calendar.
     <br>
     <br>
-    Ever tried explaining your coding skills on a resume or portfolio, but felt like it lacked punch? The LeetCode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your LeetCode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
+    Ever tried explaining your coding skills on a resume or portfolio, but felt like it lacked punch? 
+    <br>
+    The LeetCode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your LeetCode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
     <br>
     <a href="https://github.com/ankitkr8540/leetcode-calendar/issues/new">Report a Bug or request a feature</a>
 </p>
@@ -19,7 +21,7 @@
 
 ## Installation
 
-Go to your project folder and do `npm install leetcode-calender`
+Go to your project folder and do `npm install leetcode-calendar`
 
 ## Using Leetcode Calender
 
@@ -27,18 +29,41 @@ Go to your project folder and do `npm install leetcode-calender`
 
 `import LeetCodeCalendar from 'leetcode-calendar';`
 
-2. Use the LeetCodeCalendar component in your JSX code:-
+2. Use the LeetCodeCalendar, for example:
 
 ```jsx
-<LeetCodeCalendar
-  username='your_leetcode_username' // Replace with your LeetCode username
-  blockSize={15} // Optional: Size of each block in pixels (default: 15)
-  blockMargin={5} // Optional: Margin between blocks in pixels (default: 5)
-  color='#c084f5' // Optional: The color of the solved blocks (default: '#c084f5')
-  fontSize={16} // Optional: Font size of the text within blocks (default: 16)
-  theme={yourThemeObject} // Optional: A custom theme object to style the calendar
-  style={{ maxWidth: '1100px' }} // Optional: Inline styles for the calendar container
-/>
+export default function Example() {
+  const exampleTheme = {
+    light: [
+      'rgb(235, 235, 235)',
+      'rgba(192, 132, 245, 0.44)',
+      'rgba(192, 132, 245, 0.6)',
+      'rgba(192, 132, 245, 0.76)',
+      'rgba(192, 132, 245, 0.92)',
+    ],
+    dark: [
+      'rgb(235, 235, 235)',
+      'rgba(192, 132, 245, 0.44)',
+      'rgba(192, 132, 245, 0.6)',
+      'rgba(192, 132, 245, 0.76)',
+      'rgba(192, 132, 245, 0.92)',
+    ],
+  }
+
+  return (
+    <div>
+      <LeetCodeCalendar
+        username='your_leetcode_username' // Replace with your LeetCode username
+        blockSize={15} // Optional: Size of each block in pixels (default: 15)
+        blockMargin={5} // Optional: Margin between blocks in pixels (default: 5)
+        color='#c084f5' // Optional: The color of the solved blocks (default: '#c084f5')
+        fontSize={16} // Optional: Font size of the text within blocks (default: 16)
+        theme={exampleTheme} // Optional: A custom theme object to style the calendar
+        style={{ maxWidth: '1100px' }} // Optional: Inline styles for the calendar container
+      />
+    </div>
+  )
+}
 ```
 
 3. Customization
@@ -53,7 +78,7 @@ Go to your project folder and do `npm install leetcode-calender`
 
 ## Credits
 
-The leetcode calender was designed by [Ankit Kumar](https://github.com/ankitkr8540), [Lingyun Dai](https://github.com/lingyundai), and [Antara Tewary](https://github.com/StringAna).
+The leetcode calendar was designed by [Ankit Kumar](https://github.com/ankitkr8540), [Lingyun Dai](https://github.com/lingyundai), and [Antara Tewary](https://github.com/StringAna).
 
 The logo was designed in [Free Logo Design](https://app.freelogodesign.org/).
 
