@@ -1,18 +1,18 @@
 <div align='center'>
 
-# Leetcode Calendar 
+# LeetCode Calendar 
 
 ![icon](https://github.com/ankitkr8540/leetcode-calendar/blob/master/assets/leetcode-calendar-logo.png)
 
 </div>
 
 <p align="center">
-    Leetcode Calendar: Showcase Your Leetcode Consistency with LeetCode Calendar.
+    LeetCode Calendar: Showcase Your LeetCode Consistency with LeetCode Calendar.
     <br>
     <br>
     Ever tried explaining your coding skills on a resume or portfolio, but felt like it lacked punch? 
     <br>
-    The Leetcode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your Leetcode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
+    The LeetCode Calendar is here to be your coding trophy wall! This nifty npm package lets you display a sleek calendar showcasing your LeetCode journey. No more scrambling to explain those green squares - impress potential employers (or just your coding buddies) with a visual representation of your dedication and problem-solving consistency. It's like a Fitbit for your coding brain - track your progress, showcase your skills, and maybe even inspire some friendly competition! 
     <br>
     <a href="https://github.com/ankitkr8540/leetcode-calendar/issues/new">Report a Bug or request a feature</a>
 </p>
@@ -21,11 +21,13 @@
 
 ## Installation
 
+Install this extension from the [npm registry](https://www.npmjs.com/package/leetcode-calendar).
+
 Go to your project folder and do `npm install leetcode-calendar`
 
-## Using Leetcode Calendar
+## Using LeetCode Calendar
 
-1. Import leetcode calendar in your project
+1. Import leetCode calendar in your project
 
 `import LeetCodeCalendar from 'leetcode-calendar';`
 
@@ -68,7 +70,7 @@ export default function Example() {
 
 3. Customization
 
-- username: Replace "your_leetcode_username" with your actual Leetcode username.
+- username: Replace "your_leetcode_username" with your actual LeetCode username.
 - blockSize: This defines the size of each block on the calendar in pixels.
 - blockMargin: This sets the margin between blocks on the calendar.
 - color: Customize the color of the solved blocks on the calendar.
@@ -78,7 +80,7 @@ export default function Example() {
 
 ## Credits
 
-The leetcode calendar was designed by [Ankit Kumar](https://github.com/ankitkr8540), [Lingyun Dai](https://github.com/lingyundai), and [Antara Tewary](https://github.com/StringAna).
+The leetCode calendar was designed by [Ankit Kumar](https://github.com/ankitkr8540), [Lingyun Dai](https://github.com/lingyundai), and [Antara Tewary](https://github.com/StringAna).
 
 The logo was designed in [Free Logo Design](https://app.freelogodesign.org/).
 
