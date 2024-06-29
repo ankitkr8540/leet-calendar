@@ -23,13 +23,17 @@
 
 Install this extension from the [npm registry](https://www.npmjs.com/package/leetcode-calendar).
 
-Go to your project folder and do `npm install leetcode-calendar`
+Go to your project folder and do 
+```jsx
+npm install leetcode-calendar
+```
 
 ## Using LeetCode Calendar
 
 1. Import leetCode calendar in your project
-
-`import LeetCodeCalendar from 'leetcode-calendar';`
+```jsx
+import LeetCodeCalendar from 'leetcode-calendar';
+```
 
 2. Use the LeetCodeCalendar, for example:
 
@@ -58,7 +62,6 @@ export default function Example() {
         username='your_leetcode_username' // Replace with your LeetCode username
         blockSize={15} // Optional: Size of each block in pixels (default: 15)
         blockMargin={5} // Optional: Margin between blocks in pixels (default: 5)
-        color='#c084f5' // Optional: The color of the solved blocks (default: '#c084f5')
         fontSize={16} // Optional: Font size of the text within blocks (default: 16)
         theme={exampleTheme} // Optional: A custom theme object to style the calendar
         style={{ maxWidth: '1100px' }} // Optional: Inline styles for the calendar container
@@ -73,7 +76,6 @@ export default function Example() {
 - username: Replace "your_leetcode_username" with your actual LeetCode username.
 - blockSize: This defines the size of each block on the calendar in pixels.
 - blockMargin: This sets the margin between blocks on the calendar.
-- color: Customize the color of the solved blocks on the calendar.
 - fontSize: Adjust the font size of the text displayed within each block.
 - theme: For advanced customization, you can provide a custom theme object to style the calendar.
 - style: Apply inline styles directly to the calendar container.
